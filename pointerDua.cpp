@@ -15,6 +15,6 @@ int main(){
     mahasiswa *mhs = new mahasiswa{1};
     mhs->nim = 2;
     mhs-> shownim();
-    delate mhs;
+    delete mhs;
     return 0;
 }
